@@ -6,4 +6,6 @@ export type TTagProps = DetailedHTMLProps<
 > &
   PropsWithChildren<{
     variant?: 'contained' | 'outlined';
+    // TODO: add color
+    // color: string;
   }>;
