@@ -1,0 +1,11 @@
+.base {
+  @apply mb-4;
+}
+
+.body1 {
+  @apply text-base;
+}
+
+.body2 {
+  @apply text-sm;
+}

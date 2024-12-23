@@ -1,0 +1,31 @@
+.base {
+  @apply border-2  border-blue-700;
+}
+
+.contained {
+  @apply bg-blue-700 text-white;
+
+  &:hover {
+    @apply bg-white text-blue-700;
+  }
+}
+
+.outlined {
+  @apply bg-white text-blue-700;
+
+  &:hover {
+    @apply bg-blue-700 text-white;
+  }
+}
+
+.large {
+  @apply py-3 px-2 rounded-lg;
+}
+
+.medium {
+  @apply p-2 rounded-lg;
+}
+
+.small {
+  @apply py-1 px-2 rounded-md;
+}
